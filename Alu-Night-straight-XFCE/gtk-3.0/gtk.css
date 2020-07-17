@@ -1668,7 +1668,7 @@ button.suggested-action {
   outline-color: rgba(255, 255, 255, 0.3); 
   border-color: #484848; 
   border-bottom-color: #353535; 
-  background-image: linear-gradient(to top, @color_700, @color_600)); 
+  background-image: linear-gradient(to top, @color_700, @color_600); 
   box-shadow: none;/*inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.1); */}
   
 headerbar button.suggested-action:hover,
@@ -2827,7 +2827,7 @@ button:visited > label:hover,
 button:hover:link, 
 button:hover:visited { 
 
-  @color_600; }
+  color:@color_600; }
 
 *:selected button:link > label:hover, 
 *:selected button:visited > label:hover, 
@@ -7960,7 +7960,7 @@ headerbar button.titlebutton.restore:active,
 .maximized headerbar button.titlebutton.maximize:hover, 
 .fullscreen.titlebar button.titlebutton.maximize:hover,
 .maximized.titlebar button.titlebutton.maximize:hover {
-  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-restore-hover.svg"), url("graphics/title-buttons-dark/titlebutton-restore-hover@2.svg")),,linear-gradient(to top, alpha(shade(@headerbar_color,1.15),1), alpha(shade(@headerbar_color,1.30),1));
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-restore-hover.svg"), url("graphics/title-buttons-dark/titlebutton-restore-hover@2.svg")),linear-gradient(to top, alpha(shade(@headerbar_color,1.15),1), alpha(shade(@headerbar_color,1.30),1));
 }
 .fullscreen headerbar button.titlebutton.restore,
 .maximized headerbar button.titlebutton.restore, 
